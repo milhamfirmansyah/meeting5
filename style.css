@@ -1,0 +1,45 @@
+* {
+    text-decoration: none;
+    color: rgba(49,53,59,0.68);
+    font-size: 12.5px;
+    font-family: "Open Sauce One", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f5;
+    height: 32px;
+    padding: 0 32px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.download a {
+    word-spacing: 2px;
+}
+
+.icon {
+    width: 18px;
+    margin-right: 6px;
+}
+
+.navbar-nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar div a:hover {
+    color: rgb(3,172,14);
+    transition-delay: .04s;
+}
